@@ -24,7 +24,6 @@ import MigrateV1Exchange from './MigrateV1/MigrateV1Exchange'
 import RemoveV1Exchange from './MigrateV1/RemoveV1Exchange'
 import Pool from './Pool'
 import PoolFinder from './PoolFinder'
-// import Farm from './Farm'
 import RemoveLiquidity from './RemoveLiquidity'
 import { RedirectOldRemoveLiquidityPathStructure } from './RemoveLiquidity/redirects'
 import Swap from './Swap'
@@ -54,16 +53,7 @@ const BodyWrapper = styled.div`
   z-index: 1;
   justify-content: center;
 
-  background-image: url(${groupPancakeSvg});
-  background-repeat: no-repeat;
-  background-position: bottom center;
-  background-size: 90%;
-
   ${({ theme }) => theme.mediaQueries.lg} {
-    background-image: url(${background}), url(${cupSvg}), url(${bowlSvg});
-    background-repeat: no-repeat;
-    background-position: bottom, 10% center, 90% center;
-    background-size: contain, 10%, 15%;
     min-height: 100vh;
   }
 `

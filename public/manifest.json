@@ -1,22 +1,16 @@
 {
-  "short_name": "MilkSwap",
-  "name": "MilkSwap",
+  "short_name": "MozartFinance",
+  "name": "MozartFinance",
+  "description": "Classiest DEFI project on #BSC",
   "icons": [
     {
-      "src": "./images/192x192_App_Icon.png",
-      "sizes": "192x192",
+      "src": "favicon.png",
       "type": "image/png",
-      "purpose": "any maskable"
-    },
-    {
-      "src": "./images/512x512_App_Icon.png",
-      "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "any maskable"
+      "sizes": "256x256"
     }
   ],
-  "orientation": "portrait",
+  "start_url": ".",
   "display": "standalone",
-  "theme_color": "#000000",
+  "theme_color": "#002365",
   "background_color": "#ffffff"
 }

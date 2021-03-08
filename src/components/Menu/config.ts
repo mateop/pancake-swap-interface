@@ -4,7 +4,7 @@ const config: MenuEntry[] = [
   {
     label: 'Home',
     icon: 'HomeIcon',
-    href: 'https://milkswap.app/',
+    href: 'http://mozart.bot.hr/',
   },
   {
     label: 'Trade',
@@ -24,12 +24,12 @@ const config: MenuEntry[] = [
   {
     label: 'Farms',
     icon: 'FarmIcon',
-    href: 'https://milkswap.app/farms',
+    href: 'http://mozart.bot.hr/farms',
   },
   {
     label: 'Pools',
     icon: 'PoolIcon',
-    href: 'https://milkswap.app/pools',
+    href: 'http://mozart.bot.hr/pools',
   },
   {
     label: 'More',
@@ -37,11 +37,15 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Github',
-        href: 'https://github.com/milkswap',
+        href: '',
       },
       {
         label: 'Blog',
-        href: 'https://milk-swap.medium.com/',
+        href: 'https://mozart-finance.medium.com/',
+      },
+      {
+        label: 'Docs',
+        href: 'https://mozartfinance.gitbook.io/mozart-finance/',
       },
     ],
   },
